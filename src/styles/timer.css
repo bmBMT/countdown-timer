@@ -1,0 +1,47 @@
+.flip-clock {
+  --fcc-separator-size: 15px;
+  --fcc-digit-block-width: 100px;
+  --fcc-digit-block-height: 120px;
+  --fcc-digit-font-size: 72px;
+}
+
+._2aOn7 {
+  bottom: -20px;
+}
+
+@media (max-width: 975px)  {
+  h2 {
+    font-size: 4vw;
+  }
+
+  .flip-clock {
+    --fcc-digit-block-width: 10vw;
+    --fcc-digit-block-height: 10vw;
+    --fcc-digit-font-size: 5vw;
+    --fcc-separator-size: 0;
+    --fcc-label-font-size: 2.5vw;
+  }
+}
+
+@media (max-height: 560px) {
+  h2 {
+    font-size: 2vw;
+  }
+
+  .flip-clock {
+    --fcc-digit-block-width: 6vw;
+    --fcc-digit-block-height: 6vw;
+    --fcc-digit-font-size: 2.5vw;
+    --fcc-separator-size: 0;
+    --fcc-label-font-size: 1.5vw;
+  }  
+}
+
+@media (max-width: 390px) {
+  ._2hRXr {
+    margin-right: 0;
+  }
+  ._2aOn7 {
+    bottom: -10px;
+  }
+}
