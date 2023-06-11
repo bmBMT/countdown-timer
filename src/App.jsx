@@ -18,7 +18,7 @@ const App = () => {
             style={{ maxWidth: "500px" }}
             onClick={() => setGetTime(true)}
           >
-            Get time
+            Set Time
           </Button>
         ) : (
           <Timer time={time} setIsCompleted={setIsCompleted} />
